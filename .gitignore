@@ -1,0 +1,56 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+
+# Ambientes Virtuais
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Gerenciadores de Dependências
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Streamlit
+.streamlit/
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Arquivos de Log
+logs/
+*.log
+*.out
+*.err
+debug.log
+
+# Arquivos de compilação
+build/
+dist/
+
+# Banco de dados
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.sql
