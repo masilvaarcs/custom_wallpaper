@@ -47,7 +47,7 @@ Antes de começar, certifique-se de ter o seguinte instalado:
 
 4. **Execute o programa**:
    ```bash
-   streamlit run custom_wallpaper.py
+   streamlit run src/custom_wallpaper.py
    ```
 
 5. **Acesse no navegador**:
@@ -57,10 +57,11 @@ Antes de começar, certifique-se de ter o seguinte instalado:
 
 ```plaintext
 custom_wallpaper/
-├── .venv/               # Ambiente virtual
-├── custom_wallpaper.py  # Código principal do aplicativo
-├── requirements.txt     # Dependências do projeto
-└── README.md            # Documentação do projeto
+├── .venv/                    # Ambiente virtual
+├── src/                      # Código-fonte do projeto
+│   └── custom_wallpaper.py   # Código principal do aplicativo
+├── requirements.txt          # Dependências do projeto
+└── README.md                 # Documentação do projeto
 ```
 
 ## 📝 Como Usar
